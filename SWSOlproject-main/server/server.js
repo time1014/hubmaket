@@ -16,8 +16,8 @@ const buyCommentFilePath = path.join(__dirname, '..', 'db', 'buycomment.json');
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '0216', // 본인의 MySQL 비밀번호로 변경
-  database: 'hubmarket', // 본인의 MySQL 데이터베이스 이름으로 변경
+  password: '??', // 본인의 MySQL 비밀번호로 변경
+  database: '??', // 본인의 MySQL 데이터베이스 이름으로 변경
   insecureAuth: true
 });
 
